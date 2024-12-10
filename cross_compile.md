@@ -28,3 +28,12 @@ Linux debian 4.9.0-8-4kc-malta #1 Debian 4.9.130-2 (2018-10-27) mips GNU/Linux
 debian@debian:~$ ./runmips 
 hello mips
 ```
+
+
+## ARM cross compile
+```
+sudo apt install gcc-arm-none-eabi
+arm-none-eabi-gcc run.c -o runcross
+```
+
+
