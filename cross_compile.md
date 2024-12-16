@@ -3,6 +3,8 @@
 gcc compiler
 ```
 sudo apt install gcc-mips-linux-gnu
+mips-linux-gnu-gcc run.c -o runmips -EB
+mips-linux-gnu-gcc run.c -o runmips -EB --static
 ```
 
 **run.c**
@@ -34,6 +36,6 @@ hello mips
 ```
 sudo apt install gcc-arm-none-eabi
 arm-none-eabi-gcc run.c -o runcross
+sudo apt install gcc-arm-none-eabi
+arm-linux-gnueabihf-gcc run.c -o hello
 ```
-
-
