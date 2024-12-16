@@ -44,3 +44,23 @@ Why only below package add correct linker for armhf, arm
 ```
 sudo apt install gcc-arm-linux-gnueabihf
 ```
+
+---
+
+## run
+
+```
+sudo apt install qemu-user
+
+qemu-arm
+
+arm-linux-gnueabihf-gcc  run.c -o runarmv7 --static
+
+```
+
+## man page
+
+* qemu-user
+* qemu-system
+
+* 
