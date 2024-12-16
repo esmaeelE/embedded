@@ -39,3 +39,8 @@ arm-none-eabi-gcc run.c -o runcross
 sudo apt install gcc-arm-none-eabi
 arm-linux-gnueabihf-gcc run.c -o hello
 ```
+
+Why only below package add correct linker for armhf, arm
+```
+sudo apt install gcc-arm-linux-gnueabihf
+```
