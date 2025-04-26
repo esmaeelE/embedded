@@ -68,6 +68,8 @@ docker run -it -d --name debian_arm --platform linux/arm/v7 debian:armv7  bash
 docker attach debian_arm
 ctrP, ctrQ
 ```
+if exit with ctrl c or ctrl d container will destroy.
+
 
 ---
 
