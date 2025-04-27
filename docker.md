@@ -1,9 +1,15 @@
 # Dockerize OS as Development platform
 
 [binfmt backend](https://github.com/tonistiigi/binfmt)
-how to Add support for MIPS Big Endian 
+
+
+Run application on dockerized qemu container
+
+- suitable to check cross compile
+- how to Add support for MIPS Big Endian 
 
 ---
+
 
 ## Run debian armv7 on X86_64
 
